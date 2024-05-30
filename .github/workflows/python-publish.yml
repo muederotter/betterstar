@@ -61,5 +61,5 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}/betterstar
         run: |
-          python -m unittest discover -s tests
+          python -m unittest discover -s test
         shell: bash

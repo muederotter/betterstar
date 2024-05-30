@@ -16,7 +16,6 @@ The upper star is the standard matplotlib star. The lower one is the one you get
 pip install betterstar
 ```
 
-
 ## Quick Usage Example
 
 ```python

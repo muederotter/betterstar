@@ -11,7 +11,11 @@ This package allows you to integrate a more professionally looking star into you
 The upper star is the standard matplotlib star. The lower one is the one you get with this package.
 
 ## Setup
-WIP
+
+```bash
+pip install betterstar
+```
+
 
 ## Quick Usage Example
 

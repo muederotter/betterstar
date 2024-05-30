@@ -16,6 +16,6 @@ setup(
     ],
     python_requires=">=3.6",
     py_modules=["betterstar"],
-    package_dir={"": "betterstar"},
+    package_dir={"": "src"},
     install_requires=["numpy", "matplotlib"],
 )

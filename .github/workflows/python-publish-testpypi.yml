@@ -42,11 +42,13 @@ jobs:
           python setup.py sdist bdist_wheel
         shell: bash
 
-      - name: Publish package
-        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-        with:
-          user: __token__
-          password: ${{ secrets.TESTPYPI_API_TOKEN }}
+      - name: Publish package to Test PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.TESTPYPI_API_TOKEN }}
+        run: |
+          twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        shell: bash
 
       - name: Install package and dependencies for testing
         run: |

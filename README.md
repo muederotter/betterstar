@@ -6,7 +6,7 @@ A python package that implements a better looking star for matplotlib plots.
 
 This package allows you to integrate a more professionally looking star into your matplotlib plots.
 
-![Picture showing the difference between the standard star and the star that this package includes.](resources/example2.png "Example of difference")
+![Picture showing the difference between the standard star and the star that this package includes.](https://github.com/muederotter/betterstar/blob/main/resources/example2.png?raw=true "Example of difference")
 
 The upper star is the standard matplotlib star. The lower one is the one you get with this package.
 
@@ -83,4 +83,4 @@ frame.set_linewidth(0.5)
 ```
 
 This will result in a plot like this:
-![Plot with the new star](resources/example.png "Example")
+![Plot with the new star](https://github.com/muederotter/betterstar/blob/main/resources/example.png?raw=true "Example")
